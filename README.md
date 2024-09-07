@@ -4,7 +4,7 @@ Este projeto tem como objetivo praticar os conceitos de Tipos Abstratos de Dados
 
 ## Funcionalidades
 
-O sistema é composto por dois TADs principais: `ContaBancaria` e `Banco`, além de um arquivo `main.cpp` que gerencia as operações do banco.
+O sistema é composto por dois TADs principais: `ContaBancaria` e `Banco`, além de um arquivo `mainBanco.cpp` que gerencia as operações do banco.
 
 ### TAD Conta Bancária
 
@@ -36,7 +36,7 @@ O TAD `Banco` armazena e gerencia múltiplas contas bancárias, permitindo opera
 - **Pesquisa:** Pesquisa uma conta pelo ID e retorna um apontador para a conta encontrada ou `nullptr` se não existir.
 - **ListaContas:** Imprime as informações de todas as contas cadastradas no banco.
 
-### Arquivo Principal (`main.cpp`)
+### Arquivo Principal (`mainBanco.cpp`)
 
 O arquivo principal gerencia as operações do banco através de comandos de entrada, exibindo as mensagens apropriadas para cada operação:
 
@@ -50,11 +50,11 @@ O arquivo principal gerencia as operações do banco através de comandos de ent
 
 ## Como Executar
 
-1. Compile os arquivos utilizando um compilador C++:
+1. Compile os arquivos utilizando o arquivo Makefile fornecido:
    ```bash
-   g++ -o sistema_bancario main.cpp ContaBancaria.cpp Banco.cpp
+   Make
 
-2. Execute o programa:
+2. Execute o comando:
    ```bash
    ./bin/mainBanco
 
