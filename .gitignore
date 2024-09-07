@@ -1,0 +1,6 @@
+obj/*.o
+
+bin/mainBanco
+
+*.log
+*.tmp
